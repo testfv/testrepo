@@ -4,5 +4,5 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix ex: <http://example.com/ns#>.
 
-ex:Alice a ex:Person ;
-	ex:ssn "987-65-432" .
+ex:Alice a ex:Person;
+    ex:ssn "987-65-432".
