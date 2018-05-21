@@ -5,4 +5,4 @@
 @prefix ex: <http://example.com/ns#>.
 
 ex:Bob a ex:Person;
-    ex:ssn "124-35-6789", "123-45-6789".
+    ex:ssn "123-45-6789", "124-35-6789".
