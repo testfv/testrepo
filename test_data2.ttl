@@ -4,5 +4,5 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix ex: <http://example.com/ns#>.
 
-ex:MyInstance
-	ex:myProperty "http://toomanycharacters"^^xsd:anyURI .
+ex:MyInstance ex:myProperty "http://tomanycharacters"^^xsd:anyURI;
+    <predicate> <object>.
