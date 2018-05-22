@@ -6,11 +6,269 @@
 
 ex:MyShape a sh:NodeShape;
     sh:targetNode ex:MyInstance;
-    sh:property _:b1, _:b0.
-_:b0 sh:path ex:myProperty;
+    sh:property _:b37_b0, _:b37_b1, _:b36_b0, _:b36_b1, _:b35_b0, _:b35_b1, _:b34_b0, _:b34_b1, _:b33_b0, _:b33_b1, _:b32_b0, _:b32_b1, _:b31_b0, _:b31_b1, _:b30_b0, _:b30_b1, _:b29_b0, _:b29_b1, _:b28_b0, _:b28_b1, _:b27_b0, _:b27_b1, _:b26_b0, _:b26_b1, _:b25_b0, _:b25_b1, _:b24_b0, _:b24_b1, _:b23_b0, _:b23_b1, _:b22_b0, _:b22_b1, _:b21_b0, _:b21_b1, _:b20_b0, _:b20_b1, _:b19_b0, _:b19_b1, _:b18_b0, _:b18_b1, _:b17_b0, _:b17_b1, _:b16_b0, _:b16_b1, _:b15_b0, _:b15_b1, _:b14_b0, _:b14_b1, _:b13_b0, _:b13_b1, _:b12_b0, _:b12_b1, _:b11_b0, _:b11_b1, _:b10_b0, _:b10_b1, _:b9_b0, _:b9_b1, _:b8_b0, _:b8_b1, _:b7_b0, _:b7_b1, _:b6_b0, _:b6_b1, _:b5_b0, _:b5_b1, _:b4_b0, _:b4_b1, _:b3_b0, _:b3_b1, _:b2_b0, _:b2_b1, _:b1_b0, _:b1_b1, _:b0_b0, _:b0_b1.
+_:b0_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b0_b0 sh:path ex:myProperty;
     sh:minCount "1"^^xsd:integer;
     sh:datatype xsd:string;
     sh:severity sh:Warning.
-_:b1 sh:path ex:myProperty;
-    sh:maxLength "8"^^xsd:integer, "10"^^xsd:integer;
+_:b1_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
     sh:message "Too many characters"@en.
+_:b1_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b2_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b2_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b3_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b3_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b4_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b4_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b5_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b5_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b6_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b6_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b7_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b7_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b8_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b8_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b9_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b9_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b10_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b10_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b11_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b11_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b12_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b12_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b13_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b13_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b14_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b14_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b15_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b15_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b16_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b16_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b17_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b17_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b18_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b18_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b19_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b19_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b20_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b20_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b21_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b21_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b22_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b22_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b23_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b23_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b24_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b24_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b25_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b25_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b26_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b26_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b27_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b27_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b28_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b28_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b29_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b29_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b30_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b30_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b31_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b31_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b32_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b32_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b33_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b33_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b34_b1 sh:path ex:myProperty;
+    sh:maxLength "8"^^xsd:integer.
+_:b34_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b35_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b35_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b36_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b36_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b37_b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer, "8"^^xsd:integer;
+    sh:message "Too many characters"@en.
+_:b37_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
