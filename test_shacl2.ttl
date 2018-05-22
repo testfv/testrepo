@@ -6,8 +6,75 @@
 
 ex:MyShape a sh:NodeShape;
     sh:targetNode ex:MyInstance;
-    sh:property _:b1, _:b0.
+    sh:property _:b84_b0, _:b84_b1, _:b82_b0, _:b82_b1, _:b80_b0, _:b80_b1, _:b78_b0, _:b78_b1, _:b77_b0, _:b77_b1, _:b75_b0, _:b75_b1, _:b73_b0, _:b73_b1, _:b70_b0, _:b70_b1, _:b68_b0, _:b68_b1, _:b66_b0, _:b66_b1, _:b65_b0, _:b65_b1, _:b63_b0, _:b63_b1, _:b60_b0, _:b60_b1, _:b59_b0, _:b59_b1, _:b57_b0, _:b57_b1, _:b55_b0, _:b55_b1, _:b1, _:b0.
 _:b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b1 sh:path ex:myProperty;
+    sh:maxLength "10"^^xsd:integer;
+    sh:message "Zu viele Zeichen"@de, "Too many characters"@en.
+_:b55_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b57_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b59_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b60_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b63_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b65_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b66_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b68_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b70_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b73_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b75_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b77_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b78_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b80_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b82_b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b84_b0 sh:path ex:myProperty;
     sh:minCount "1"^^xsd:integer;
     sh:datatype xsd:string;
     sh:severity sh:Warning.
