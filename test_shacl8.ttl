@@ -4,20 +4,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix ex: <http://example.com/ns#>.
 
-ex:MyShape
-	a sh:NodeShape ;
-	sh:targetNode ex:MyInstance ;
-	sh:property [    # _:b1
-		# Violations of sh:minCount and sh:datatype are produced as warnings
-		sh:path ex:myProperty ;
-		sh:minCount 1 ;
-		sh:datatype xsd:string ;
-		sh:severity sh:Warning ;
-	] ;
-	sh:property [    # _:b2
-		# The default severity here is sh:Violation
-		sh:path ex:myProperty ;
-		sh:maxLength 10 ;
-		sh:message "Too many characters"@en ;
-		sh:message "Zu viele Zeichen"@de ;
-	] .
+ex:MyShape a sh:NodeShape;
+    sh:targetNode ex:MyInstance;
+    sh:property _:b1, _:b0.
+_:b0 sh:path ex:myProperty;
+    sh:minCount "1"^^xsd:integer;
+    sh:datatype xsd:string;
+    sh:severity sh:Warning.
+_:b1 sh:path ex:myProperty;
+    sh:maxLength "8"^^xsd:integer, "10"^^xsd:integer;
+    sh:message "Too many characters"@en.
